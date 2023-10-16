@@ -1,4 +1,4 @@
-# Prog_Verificação de Triângulos!!
+# Prog_Verificação de Triângulos!
 
 
 #Begin
