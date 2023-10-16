@@ -17,11 +17,12 @@ if l1 < (l2 + l3) and l2 < (l1 + l3) and l3 < (l1+l2):
     if l1 == l2 == l3:
         print('O Triângulo é Equilatero.')
 
-    elif l1 == l2 != l3 or l1 == l3 != l2 or l2 == l3 != l1:
-        print('O Triângulo é Isósceles.')
-
     elif l1 != l2 != l3:
         print('O Triângulo é Escaleno.')
+
+    else:
+        print('O Triângulo é Isósceles.')
+
 else:
     print(f'\nO objeto de lados equivalentes á {l1:.2f}, {l2:.2f}, {l3:.2f} não é um Triângulo!')
 
